@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Web",
+            "type": "shell",
+            "command": "cd web && bun dev",
+            "runOptions": {
+                "runOn": "default"
+            },
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
